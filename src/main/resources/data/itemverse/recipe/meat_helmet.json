@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:smithing",
+  "base": "minecraft:leather_helmet",
+  "addition": "itemverse:medley",
+  "result": "itemverse:meat_helmet"
+}

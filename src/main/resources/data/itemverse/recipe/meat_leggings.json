@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:smithing",
+  "base": "minecraft:leather_leggings",
+  "addition": "itemverse:medley",
+  "result": "itemverse:meat_leggings"
+}

@@ -2,6 +2,7 @@ package net.repoclub.itemverse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.repoclub.itemverse.Item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,6 @@ public class ItemVerse implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
