@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "itemverse",
+	"version": "${version}",
+	"name": "ItemVerse",
+	"description": "Enter the ItemVerse!",
+	"authors": [
+		"Austin High RepoClub"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/AHS-RepoClub/ItemVerse"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/itemverse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.repoclub.itemverse.ItemVerse"
+		],
+		"fabric-datagen": [
+			"net.repoclub.itemverse.ItemVerseDataGenerator"
+		],
+		"client": [
+			"net.repoclub.itemverse.ItemVerseClient"
+		]
+	},
+	"mixins": [
+		"itemverse.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
