@@ -13,6 +13,7 @@ public class ItemVerse implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.registerModItems();
 	}
 }

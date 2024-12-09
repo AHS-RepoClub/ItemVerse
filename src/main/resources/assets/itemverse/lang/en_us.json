@@ -1,7 +1,13 @@
 {
   "item.itemverse.medley": "Medley",
+  "item.itemverse.blood_seed": "Blood Seed",
+
   "item.itemverse.meat_helmet": "Meat Helmet",
   "item.itemverse.meat_chestplate": "Meat Chestplate",
   "item.itemverse.meat_leggings": "Meat Leggings",
-  "item.itemverse.meat_boots": "Meat Boots"
+  "item.itemverse.meat_boots": "Meat Boots",
+
+  "item.itemverse.ominous_totem": "Ominous Totem",
+
+  "tooltip.itemverse.ominous_totem_tooltip": "§4§l§kBLOOD§r for the blood god, §4§l§kSKULLS§r for the skull throne"
 }

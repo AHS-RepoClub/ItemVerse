@@ -21,5 +21,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.MEAT_CHESTPLATE)
                 .add(ModItems.MEAT_LEGGINGS)
                 .add(ModItems.MEAT_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.MEDLEY);
     }
 }

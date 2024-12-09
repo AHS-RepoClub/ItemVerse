@@ -7,27 +7,28 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.repoclub.itemverse.Item.custom.OminousTotemItem;
 import net.repoclub.itemverse.ItemVerse;
 
 public class ModItems {
 
     public static final Item MEDLEY = registerItem("medley", new Item(new Item.Settings()));
+    public static final Item BLOOD_SEED = registerItem("blood_seed", new Item(new Item.Settings()));
 
     public static final Item MEAT_HELMET = registerItem("meat_helmet",
             new ArmorItem(ModArmorMaterials.MEDLEY_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(10))));
-
     public static final Item MEAT_CHESTPLATE = registerItem("meat_chestplate",
             new ArmorItem(ModArmorMaterials.MEDLEY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(10))));
-
     public static final Item MEAT_LEGGINGS = registerItem("meat_leggings",
             new ArmorItem(ModArmorMaterials.MEDLEY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(10))));
-
     public static final Item MEAT_BOOTS = registerItem("meat_boots",
             new ArmorItem(ModArmorMaterials.MEDLEY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(10))));
+
+    public static final Item OMINOUS_TOTEM = registerItem("ominous_totem", new OminousTotemItem(new Item.Settings().maxDamage(12)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ItemVerse.MOD_ID, name), item);

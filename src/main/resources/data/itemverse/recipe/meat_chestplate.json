@@ -1,6 +1,0 @@
-{
-  "type": "minecraft:smithing",
-  "base": "minecraft:leather_chestplate",
-  "addition": "itemverse:medley",
-  "result": "itemverse:meat_chestplate"
-}
